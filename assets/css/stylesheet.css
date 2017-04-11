@@ -23,6 +23,10 @@
   text-align: center;
 }
 
+.projLinks,.projLinks:hover{
+  color:black;
+}
+
 .projectNav, .projects, .pageBtn{
   cursor: pointer;
   cursor: hand;

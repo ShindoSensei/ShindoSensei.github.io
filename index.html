@@ -18,12 +18,22 @@
             <div class="jtLogoContainer">
               <h2 class="jtInitials">JT</h2>
             </div>
-            <h4 data-name="aboutPage" class="about pageBtn active">ABOUT</h4>
+            <a href="#about">
+              <h4 data-name="aboutPage" class="about pageBtn active">ABOUT</h4>
+            </a>
             <h4 class="projects">PROJECTS</h4>
-            <p data-name="roboRentPage" class="projectNav pageBtn navHidden">Roborent<p>
-            <p data-name="crowdSubPage" class="projectNav pageBtn navHidden">CrowdSub<p>
-            <p data-name="pulsePage" class="projectNav pageBtn navHidden">Pulse<p>
-            <p data-name="relacJsPage" class="projectNav pageBtn navHidden">Relac.js<p>
+            <a class="projLinks" href="#robo">
+              <p data-name="roboRentPage" class="projectNav pageBtn navHidden">Roborent<p>
+            </a>
+            <a class="projLinks" href="#crowdsub">
+              <p data-name="crowdSubPage" class="projectNav pageBtn navHidden">CrowdSub<p>
+            </a>
+            <a class="projLinks" href="#pulse">
+              <p data-name="pulsePage" class="projectNav pageBtn navHidden">Pulse<p>
+            </a>
+            <a class="projLinks" href="#relac">
+              <p data-name="relacJsPage" class="projectNav pageBtn navHidden">Relac.js<p>
+            </a>
             <address class="envelopContainer">
               <a href="mailto:justin.tsw@gmail.com">
                 <i class="fa fa-envelope-o fa-lg" aria-hidden="true">
@@ -42,7 +52,7 @@
         </div>
           <div class="col-sm-10 col-md-10 col-lg-10 projectMain">
 
-            <div class="aboutPage">
+            <div id="about" class="aboutPage">
               <div class="elevator">
                 <h1 class="elevatorTitle">Hi, I'm Justin Teo,</h1>
                 <p class="elevatorIntro">
@@ -126,7 +136,7 @@
               <br>
             </div>
           </div>
-
+            <div id="robo"></div>
             <div class="roboRentPage hidePage">
               <h1 class="videoTitle">Roborent</h1>
               <p class="projectSummary">
@@ -190,6 +200,7 @@
             </div>
           </div>
 
+          <div id="crowdsub"></div>
           <div class="crowdSubPage hidePage">
             <h1 class="videoTitle">CrowdSub</h1>
             <p class="projectSummary">
@@ -255,6 +266,7 @@
           </div>
         </div>
 
+        <div id="pulse"></div>
         <div class="pulsePage hidePage">
           <h1 class="videoTitle">Pulse</h1>
           <p class="projectSummary">
@@ -329,6 +341,7 @@
         </div>
       </div>
 
+      <div id="relac"></div>
       <div class="relacJsPage hidePage">
         <h1 class="videoTitle">Relac.js</h1>
         <p class="projectSummary">
