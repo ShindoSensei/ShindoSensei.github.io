@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.projLinks,.projLinks:hover{
+.projLinks,.projLinks:hover, .projLinks:visited{
   color:black;
 }
 
