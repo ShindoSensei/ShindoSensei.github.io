@@ -1,0 +1,215 @@
+/***Navbar***/
+
+.navbar{
+  /*border-right:solid;*/
+  /*border-style:double;*/
+
+}
+
+.jtLogoContainer{
+  border-radius:50%;
+  border-style:solid;
+  border-color:black;
+  border-width:thin;
+  width:6em;
+  height:6em;
+  line-height:6em;
+  margin:2em auto;
+}
+
+.jtInitials, .jtFullName, .about, .projects, .projectNav{
+  color:black;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.projectNav, .projects, .pageBtn{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.jtFullName, .about, .projects{
+  font-size: 1em;
+}
+
+.jtFullName, .projects{
+  margin-top:1.5em;
+}
+
+.about{
+  margin-top:4em;
+}
+
+.projectNav{
+  margin-top:1.3em;
+  font-size:0.85em;
+  /*font-style:italic;*/
+}
+
+.navHidden{
+  visibility:hidden;
+}
+
+.envelopContainer, .gitContainer{
+  color:black;
+  text-align: center;
+}
+
+.envelopContainer{
+  margin-top:16em;
+  margin-bottom:0.8em;
+}
+
+.fa-envelope-o,.fa-github{
+  color:black;
+  font-size:1em;
+}
+
+.email, .gitHub{
+  margin-left: 0.5em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+}
+
+/*Projects - Right Content Area - Large Screen*/
+
+.hidePage{
+  display:none;
+}
+.projectMain{
+  min-height:100vh;
+  padding-left:1em;
+}
+
+.projectShow{
+  min-height:80vh;
+}
+
+.videoTitle{
+  font-family: 'Raleway', sans-serif;
+  font-size:2em;
+  font-weight:bold;
+}
+
+.projectSummary{
+  font-family: 'Raleway', sans-serif;
+  max-width:95%;
+}
+
+.embeddedImg{
+  /*max-height:100%;*/
+  max-width:95%;
+  border: 0.1em solid rgba(0,0,0,0.1);
+}
+
+.aboutText{
+  max-width:80%;
+  font-family: 'Raleway', sans-serif;
+  margin-top:2.5em;
+}
+
+.projectText{
+  max-width:80%;
+  font-family: 'Raleway', sans-serif;
+  margin-top:1.5em;
+}
+
+.siteLaunch,.gitLink{
+  font-style:italic;
+  font-size:0.8em;
+  color:red;
+  display:inline;
+}
+
+.gitLink{
+  margin-left:1em;
+}
+
+.textTitle{
+  font-weight:bold;
+  text-decoration:underline;
+  margin-top:1.2em;
+}
+
+.buildTools{
+  font-weight:bolder;
+  line-height: 2em;
+}
+
+.whatItDoes, .whyBuilt, .howBuilt, .challenges{
+  margin-bottom:1.5em;
+}
+
+.sethRogen{
+  color:red;
+}
+
+.imgContainer{
+  position:relative;
+}
+
+.aboutImg{
+  max-height:90vh;
+  max-width:100%;
+  position:relative;
+  margin-top:2em;
+  z-index:-1;
+}
+
+.downArrow,.scrollText {
+  position: absolute;
+  opacity: 0.8;
+  z-index:1;
+  color:white;
+}
+
+.downArrow{
+  margin-left:45%;
+  bottom:0.3em;
+}
+
+.scrollText{
+  margin-left: 43%;
+  bottom:0;
+}
+
+.elevator{
+  position:absolute;
+  color:white;
+  margin-left:1em;
+  margin-top:0.5em;
+}
+
+.elevatorTitle{
+  /*margin-top:1em;*/
+  font-size:5em;
+}
+
+.aboutTitle,.elevatorIntro{
+  font-family: 'Raleway', sans-serif;
+  /*color:black;*/
+}
+
+.elevatorIntro{
+  font-size:2em;
+  margin-left:2.5em;
+}
+
+.aboutTitle{
+  /*text-decoration:underline;*/
+  font-size:1.8em;
+  font-weight:bold;
+}
+
+.aboutMail, .commercialLink{
+  text-decoration: underline;
+  color:red;
+}
+
+.intUl, .buildUl,.movingFwdUl{
+  padding-left:1em;
+}
+
+.intPts{
+  line-height: 2em;
+}
