@@ -23,8 +23,12 @@
   text-align: center;
 }
 
-.projLinks,.projLinks:hover, .projLinks:visited{
+.navLinks,.navLinks:hover, .navLinks:visited,.logoLink,.logoLink:visited, .logoLink:hover{
   color:black;
+}
+
+.logoLink:hover{
+  text-decoration:none;
 }
 
 .projectNav, .projects, .pageBtn{
