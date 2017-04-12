@@ -1,9 +1,18 @@
 /***Navbar***/
 
-.navbar{
-  /*border-right:solid;*/
-  /*border-style:double;*/
+/*.navbar-fixed-left {
+  width: 140px;
+  position: fixed;
+  height: 100vh;
+  overflow:auto;
+  border-top-width:0;
+  border-bottom-width:0;
+  border-radius:0
 }
+
+.leftCol{
+  padding:0;
+}*/
 
 .jtLogoContainer{
   border-radius:50%;
@@ -71,10 +80,16 @@
 }
 
 .envelopContainer{
-  /*margin-top:16em;*/
+  margin-top:16em;
   /*margin-bottom:0.8em;*/
   /*position:fixed;*/
-  margin-top:100%;
+  /*margin-top:100%;*/
+}
+
+@media (min-width: 1500px){
+  .envelopContainer{
+    margin-top:18em;
+  }
 }
 
 .fa-envelope-o,.fa-github{
