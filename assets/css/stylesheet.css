@@ -3,7 +3,6 @@
 .navbar{
   /*border-right:solid;*/
   /*border-style:double;*/
-
 }
 
 .jtLogoContainer{
@@ -31,7 +30,7 @@
   text-decoration:none;
 }
 
-.projectNav, .projects, .pageBtn{
+.projectNav, .projects, .pageBtn, .downArrow{
   cursor: pointer;
   cursor: hand;
 }
@@ -173,11 +172,11 @@
 
 .downArrow{
   margin-left:45%;
-  bottom:0.3em;
+  bottom:0.1em;
 }
 
 .scrollText{
-  margin-left: 43%;
+  margin-left: 42.5%;
   bottom:0;
 }
 

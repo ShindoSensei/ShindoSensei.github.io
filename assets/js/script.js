@@ -7,6 +7,7 @@ function toggleProjects () {
 
 $('.projects').on('click', toggleProjects)
 
+// Toggle mainscreen display
 function toggleDisplay () {
   if (!$(this).hasClass('active')) {
     // Get pagename of current active page, hide the corresponding page & remote active status
@@ -21,8 +22,8 @@ function toggleDisplay () {
 }
 $('.pageBtn').on('click', toggleDisplay)
 
-// $('.downArrow').click(function () {
-//   $('html,body').animate({
-//     scrollTop: $('#transition').offset().top - 50
-//   }, 900)
-// })
+// downArrow scroll
+$('.downArrow').click(function () {
+  var newPos = $('#experienceTarget').offset().top
+  $('html, body').animate({scrollTop: newPos}, 1000)
+})
