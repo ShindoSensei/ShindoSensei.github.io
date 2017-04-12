@@ -54,17 +54,27 @@
 }
 
 .navHidden{
-  visibility:hidden;
+  /*visibility:hidden;*/
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.navReveal{
+  opacity: 1;
+  transition: opacity 500ms;
 }
 
 .envelopContainer, .gitContainer{
   color:black;
   text-align: center;
+  /*position:fixed;*/
 }
 
 .envelopContainer{
-  margin-top:16em;
-  margin-bottom:0.8em;
+  /*margin-top:16em;*/
+  /*margin-bottom:0.8em;*/
+  /*position:fixed;*/
+  margin-top:100%;
 }
 
 .fa-envelope-o,.fa-github{
@@ -82,6 +92,7 @@
 
 .hidePage{
   display:none;
+
 }
 .projectMain{
   min-height:100vh;
@@ -172,13 +183,13 @@
 
 .downArrow{
   margin-left:45%;
-  bottom:0.1em;
-}
-
-.scrollText{
-  margin-left: 42.5%;
   bottom:0;
 }
+
+/*.scrollText{
+  margin-left: 42.5%;
+  bottom:0;
+}*/
 
 .elevator{
   position:absolute;

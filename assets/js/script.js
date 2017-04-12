@@ -3,6 +3,7 @@
 // Toggle visibility of projects on Navbar
 function toggleProjects () {
   $('.projectNav').toggleClass('navHidden')
+  $('.projectNav').toggleClass('navReveal')
 }
 
 $('.projects').on('click', toggleProjects)
