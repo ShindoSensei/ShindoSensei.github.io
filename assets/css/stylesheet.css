@@ -4,14 +4,11 @@
   width: 16.6vw;;
   position: fixed;
   height: 100vh;
-  /*overflow:auto;*/
-  /*border-top-width:0;
-  border-bottom-width:0;
-  border-radius:0*/
+
 }
 
 .leftCol{
-  padding:0;  
+  padding:0;
 }
 
 .jtLogoContainer{
@@ -71,37 +68,6 @@
 .navReveal{
   opacity: 1;
   transition: opacity 500ms;
-}
-
-.envelopContainer, .gitContainer{
-  color:black;
-  text-align: center;
-  /*position:fixed;*/
-}
-
-/*13" screen*/
-.envelopContainer{
-  margin-top:15.5em;
-  /*margin-bottom:0.8em;*/
-  /*position:fixed;*/
-  /*margin-top:100%;*/
-}
-
-@media (min-width: 1500px){
-  .envelopContainer{
-    margin-top:21em;
-  }
-}
-
-.fa-envelope-o,.fa-github{
-  color:black;
-  font-size:1em;
-}
-
-.email, .gitHub{
-  margin-left: 0.5em;
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.8em;
 }
 
 /*Projects - Right Content Area - Large Screen*/
@@ -180,17 +146,14 @@
 
 .imgContainer{
   position:relative;
+  background:url(http://justintsw.com/assets/img/Leapoff.jpg) no-repeat center center/ cover;
+  margin:20px 0;
+  height:90vh;
+  padding:2em;
 }
 
-.aboutImg{
-  max-height:90vh;
-  max-width:100%;
-  position:relative;
-  margin-top:2em;
-  z-index:-1;
-}
 
-.downArrow,.scrollText {
+.downArrow {
   position: absolute;
   opacity: 0.8;
   z-index:1;
@@ -202,16 +165,12 @@
   bottom:0;
 }
 
-/*.scrollText{
-  margin-left: 42.5%;
-  bottom:0;
-}*/
-
 .elevator{
   position:absolute;
   color:white;
   margin-left:1em;
   margin-top:0.5em;
+  z-index:1;
 }
 
 .elevatorTitle{
